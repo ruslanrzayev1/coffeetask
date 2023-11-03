@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation a {
+    color: white;
+}
+
+.navigation a:hover {
+    color: white;
+}
+
+.navigation img {
+    width: 141px;
+    height: 67px;
+}
+
+.lister {
+    gap: 25px;
+}
+
+#firstSec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/home-1-slider-image-1.jpg);
+}
+
+.imgFirst {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.imgFirst img {
+    width: 12%;
+    height: 130px;
+}
+
+.cntnt {
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    gap: 25px;
+}
+
+.line {
+    width: 20%;
+    height: 25px;
+}
+
+.cflg {
+    width: 16%;
+    height: 130px;
+}
+
+.products h1 {
+    font-size: 100px;
+    font-family: Marcellus;
+    line-height: 78px;
+    color: white;
+}
+
+.products p {
+    width: 840px;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.btnShop {
+    border-radius: 0px;
+    width: 190px;
+    height: 60px;
+}
+
+.btnShop:hover {
+    border: none;
+    background-color: #BE9C79;
+    cursor: pointer;
+    color: white;
+}
+
+.secHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 400px;
+}
+
+.secHead h2 {
+    font-size: 45px;
+    font-family: Marcellus;
+}
+
+.secHead p {
+    text-align: center;
+    width: 35%;
+    font-size: 18px;
+    color: #262626;
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.offer img{
+cursor: pointer;
+}
+.cntx {
+    font-size: 20px;
+}
+.cntx:hover {
+    color: #CEA279;
+    cursor: pointer;
+}
+.contex {
+    font-size: 15px;
+    width: 200px;
+    color: #656565;
+}
+
+#thirdSec {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 570px;
+}
+
+.category img {
+    width: 368px;
+    height: 285px;
+    cursor: pointer;
+}
+
+.category a {
+    font-size: 20px;
+    font-family: Marcellus;
+}
+
+.category p {
+    font-size: 15px;
+    color: #656565;
+    width: 350px;
+}
+
+.category span {
+    font-size: 15px;
+    color: #262626;
+}
+
+.category span:hover {
+    color: #CEA279;
+    cursor: pointer;
+}
+
+#fourthSec {
+    width: 100%;
+    height: 440px;
+    background-size: auto;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+}
+
+.fourthSecMid {
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#fifthSec {
+    display: flex;
+    align-items: center;
+    height: 380px;
+}
+
+.fourthCtg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fourthCtg span {
+    font-size: 55px;
+    font-family: Marcellus;
+    color: #BE9C79;
+}
+
+.fourthCtg h5 {
+    font-size: 20px;
+    font-family: Marcellus;
+}
+
+.fourthCtg p {
+    color: #656565;
+    font-size: 15px;
+
+}
+
+#sixthSec {
+    background-size: cover;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+}
+
+.sixthCtg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sixthCtg img {
+    width: 255px;
+    height: 255px;
+}
+
+.sixthCtg a {
+    font-size: 20px;
+    font-family: Marcellus;
+    text-decoration: none;
+    color: #252525;
+    cursor: pointer;
+}
+
+.sixthCtg a:hover {
+    color: #BE9C79;
+}
+
+.sixthCtg span {
+    color: #777777;
+    font-size: 18px;
+}
+.gallery{
+    position: relative;
+}
+.gallery img {
+    width: 355px;
+    height: 345px;
+}
+
+.gap {
+    display: flex;
+}
+
+.logos img {
+    width: 253px;
+    height: 102px;
+}
+
+#eightSec {
+    width: 100%;
+    height: 209px;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);
+}
+
+.eightcntr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+}
+
+.h5 {
+    margin-top: 14px;
+}
+
+.h5 h5 {
+    font-size: 20px;
+    font-family: Marcellus;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.contactUS {
+    background-color: #be9c79;
+    width: 164px;
+    height: 54px;
+    border: none;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    border-radius: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+.contactUS:hover {
+    background-color: #262626;
+}
+
+#ninthSec {
+    width: 100%;
+    height: 709px;
+    background-size: cover;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg);
+}
+
+.endFirst {
+    height: 370px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.endFirst img {
+    cursor: pointer;
+}
+
+.endFirst p {
+    width: 500px;
+    text-align: center;
+    color: white;
+}
+
+.stores {
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.losAngeles {
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.storess {
+    font-size: 20px;
+    font-family: Marcellus;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.email {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email h5 {
+    color: white;
+    font-size: 20px;
+    font-family: Marcellus;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.btnInp {
+    border: 1px solid white;
+}
+
+.inp {
+    background-color: transparent;
+    width: 258px;
+    height: 60px;
+    border: none;
+    padding-left: 10px;
+    color: white;
+}
+
+.inp::placeholder {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.buttonEnd {
+    width: 63px;
+    height: 62px;
+    font-size: 19px;
+    border: none;
+}
+
+.buttonEnd:hover {
+    background-color: #CEA279;
+}
+
+.grey {
+    background-color: #121212;
+    width: 100%;
+    height: 166px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+}
+
+.lastCategory {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+
+.lastCategory a {
+    text-decoration: none;
+    color: white;
+}
+
+.lastCategory a:hover {
+    color: #be9c79;
+}
+
+.lastCategory i:hover {
+    cursor: pointer;
+    color: #be9c79;
+}
